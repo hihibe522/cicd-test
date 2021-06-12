@@ -1,5 +1,5 @@
 module.exports = {
-    pubilcPath: process.env.NODE_ENV === 'production'
-        ? '/cicd-test/'
-        : '/'
+    publicPath: process.env.NODE_ENV === 'production'
+    ? '/cicd-test/'
+    : '/'
 };
