@@ -32,8 +32,8 @@ jobs:
           cat .env
       - name: Install & Build
         run: |
-          npm install
-          npm run build
+          yarn install
+          yarn run build
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
